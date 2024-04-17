@@ -13,7 +13,7 @@
         >
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="PROFILE"
             android:textStyle="bold"
             android:textSize="40dp"
@@ -21,14 +21,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <ImageView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="40dp"
             android:layout_gravity="center"
             android:src="@drawable/baseline_person_24"
             android:layout_width="100dp"
             android:layout_height="100dp"/>
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="80dp"
             android:textStyle="bold"
             android:layout_marginLeft="20dp"
             android:textSize="20dp"
