@@ -7,14 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Login"
-    android:background="@color/cardview_light_background"
+    android:background="@drawable/background"
     >
 
     <ImageView
         android:layout_gravity="center"
         android:src="@drawable/applogo"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        />
 
     <TextView
         android:id="@+id/login"
@@ -31,7 +33,7 @@
         android:textColorLink="@color/black"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:hint="ENTER EMAIL"
         android:textAlignment="center"
