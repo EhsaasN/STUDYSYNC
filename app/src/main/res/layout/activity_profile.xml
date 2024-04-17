@@ -16,12 +16,12 @@
     <ImageView
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/baseline_person_24"
         android:layout_width="100dp"
         android:layout_height="100dp"/>
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
@@ -45,7 +45,7 @@
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
         android:layout_gravity="center"
-        android:text="PASSWORD                   ********"
+        android:text="PASSWORD                      ********"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
