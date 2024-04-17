@@ -27,6 +27,8 @@ class Homepage : AppCompatActivity() {
                 true}
                 R.id.profile ->{replaceFragment(ProfileFragment())
                 true}
+                R.id.groups ->{replaceFragment(GroupsFragment())
+                true}
                 else ->{replaceFragment(HomeFragment())
                 true}
             }

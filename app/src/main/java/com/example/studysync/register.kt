@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -27,7 +28,7 @@ class Register : AppCompatActivity() {
         val email=findViewById<EditText>(R.id.username)
         val password=findViewById<EditText>(R.id.password)
         val create=findViewById<Button>(R.id.create)
-        val btn=findViewById<Button>(R.id.BACK)
+        val btn=findViewById<TextView>(R.id.BACK)
         val fname=findViewById<EditText>(R.id.fname)
         val ph=findViewById<EditText>(R.id.pnumber)
         val auth=FirebaseAuth.getInstance()

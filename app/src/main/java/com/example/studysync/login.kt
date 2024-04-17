@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
@@ -14,7 +15,7 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.login)
         val username = findViewById<EditText>(R.id.username)
         val password = findViewById<EditText>(R.id.password)
-        val create = findViewById<Button>(R.id.createprofile)
+        val create = findViewById<TextView>(R.id.createprofile)
         val signin = findViewById<Button>(R.id.signin)
         val auth = FirebaseAuth.getInstance()
         signin.setOnClickListener() {
