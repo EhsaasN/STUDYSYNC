@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481798776740",
+    "project_id": "studysync-f2afe",
+    "storage_bucket": "studysync-f2afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481798776740:android:2b073c52398a5fc6b2c331",
+        "android_client_info": {
+          "package_name": "com.example.studysync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc2JmFWCH54u0dwSntP9u6zlSrgtNrxZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

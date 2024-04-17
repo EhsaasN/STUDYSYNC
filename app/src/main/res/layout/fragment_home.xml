@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CLICK TO JOIN GROUPS"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+
+        />
+        <Button
+            android:id="@+id/mathematics"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Mathematics"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/physics"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Physics"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/bee"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="BEE"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/chem"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Chemistry"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/communicationskills"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Communication skills"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/pps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="PPS"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        </LinearLayout>
+
+</FrameLayout>
