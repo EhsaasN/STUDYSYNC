@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.login)
+        setContentView(R.layout.loginfinal)
         val username = findViewById<EditText>(R.id.username)
         val password = findViewById<EditText>(R.id.password)
         val create = findViewById<TextView>(R.id.createprofile)
