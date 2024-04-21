@@ -27,7 +27,7 @@
                     android:id="@+id/usernameTextView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Ehsaas Nahata"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView1"
-                    android:text="johndoe"
+                    android:text="Mathematics-1"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView1"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Mean value Theorems:\nTaylor's Theorem and Maclaurin's Theorem"
                     android:textSize="16sp" />
 
                 <TextView
@@ -63,14 +63,14 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="70dp">
+                android:paddingBottom="50dp">
 
                 <!-- Tweet Content -->
                 <TextView
                     android:id="@+id/usernameTextView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Jane Doe"
+                    android:text="Sivamshi"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView2"
-                    android:text="janedoe"
+                    android:text="Communication Skills"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView2"
                     android:layout_marginTop="8dp"
-                    android:text="Another sample tweet content. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    android:text=""
                     android:textSize="16sp" />
 
                 <TextView
@@ -101,6 +101,7 @@
                     android:text="3 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -111,7 +112,7 @@
                     android:id="@+id/usernameTextView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Kaushik"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -120,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView3"
-                    android:text="johndoe"
+                    android:text="PPS"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -130,7 +131,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView3"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Functions:\nRecursion"
                     android:textSize="16sp" />
 
                 <TextView
@@ -142,6 +143,7 @@
                     android:text="2 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -152,7 +154,7 @@
                     android:id="@+id/usernameTextView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Varshith"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -161,7 +163,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView4"
-                    android:text="johndoe"
+                    android:text="Physics"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -171,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView4"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Band Theory of solids: \nFree electron Theory"
                     android:textSize="16sp" />
 
                 <TextView
@@ -183,6 +185,7 @@
                     android:text="2 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -193,7 +196,7 @@
                     android:id="@+id/usernameTextView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Ehsaas Nahata"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -202,7 +205,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView5"
-                    android:text="johndoe"
+                    android:text="Basic Electrical Engineering"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -212,7 +215,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView5"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="DC Circuits:\nThevien's Theorem and Norton's Theorem"
                     android:textSize="16sp" />
 
                 <TextView
@@ -224,6 +227,7 @@
                     android:text="2 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -234,17 +238,16 @@
                     android:id="@+id/usernameTextView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Kunal"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/handleTextView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView6"
-                    android:text="johndoe"
+                    android:text="Mathematics-2"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -254,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView6"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Matrices:\nCayley Hamilton's Theorem"
                     android:textSize="16sp" />
 
                 <TextView
@@ -266,6 +269,7 @@
                     android:text="2 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -276,7 +280,7 @@
                     android:id="@+id/usernameTextView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Sivamshi"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -285,7 +289,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView7"
-                    android:text="johndoe"
+                    android:text="English"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -307,6 +311,7 @@
                     android:text="2 hours ago"
                     android:textSize="12sp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -317,7 +322,7 @@
                     android:id="@+id/usernameTextView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="Varshith"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -326,7 +331,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameTextView8"
-                    android:text="johndoe"
+                    android:text="Chemistry"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -336,7 +341,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/handleTextView8"
                     android:layout_marginTop="8dp"
-                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Green Chemistry and Composites:\n12 Principles of Green Chemistry"
                     android:textSize="16sp" />
 
                 <TextView
