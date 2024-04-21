@@ -6,8 +6,353 @@
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello_home_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Sample Tweet 1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView1"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView1"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView1"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <!-- Sample Tweet 2 (You can duplicate this block for more tweets) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jane Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView2"
+                    android:text="janedoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView2"
+                    android:layout_marginTop="8dp"
+                    android:text="Another sample tweet content. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView2"
+                    android:layout_alignParentEnd="true"
+                    android:text="3 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView3"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView3"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView3"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView4"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView4"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView4"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView5"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView5"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView5"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/handleTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView6"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView6"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView6"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView7"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView7"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView7"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="70dp">
+
+                <!-- Tweet Content -->
+                <TextView
+                    android:id="@+id/usernameTextView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/handleTextView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernameTextView8"
+                    android:text="johndoe"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contentTextView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/handleTextView8"
+                    android:layout_marginTop="8dp"
+                    android:text="This is a sample tweet content. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/timestampTextView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTextView8"
+                    android:layout_alignParentEnd="true"
+                    android:text="2 hours ago"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+
+            <!-- Add more tweet blocks as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
 </FrameLayout>
