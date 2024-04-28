@@ -33,6 +33,7 @@ class Register : AppCompatActivity() {
         val ph=findViewById<EditText>(R.id.pnumber)
         val auth=FirebaseAuth.getInstance()
         val fstore= Firebase.firestore
+
         //val auth =Firebase.auth
 
         create.setOnClickListener(){
@@ -50,8 +51,8 @@ class Register : AppCompatActivity() {
                         // Sign in success, update UI with the signed-in user's information
                         val userid= auth.currentUser!!.uid.toString()
                        //val documentReference=fstore.collection("user profiles").document(userid)
-                        /*val user= hashMapOf(
-                            "fullname" to fullname,
+                       /* val user= hashMapOf(
+                            "fullname" to name,
                             "email" to email,
                             "phonenumber" to phonenumber,
                             "password" to password,

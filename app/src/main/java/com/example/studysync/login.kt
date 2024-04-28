@@ -7,7 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.firestore
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +20,9 @@ class Login : AppCompatActivity() {
         val create = findViewById<TextView>(R.id.createprofile)
         val signin = findViewById<Button>(R.id.signin)
         val auth = FirebaseAuth.getInstance()
+        val fstore= Firebase.firestore
+
+
         signin.setOnClickListener() {
             val user = username.text.toString()
             val pass = password.text.toString()
