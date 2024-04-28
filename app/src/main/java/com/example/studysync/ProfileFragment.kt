@@ -5,11 +5,23 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.FirebaseAuth;
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
+private fun fetchUserData() {
+    val firebaseUser = FirebaseAuth.getInstance().currentUser
+    firebaseUser?.let { user ->
+        val username = user.displayName
+        val email = user.email
+        // Now you can use 'username' and 'email' to display in your profile page
+    }
+}
+
 
 /**
  * A simple [Fragment] subclass.
@@ -36,6 +48,7 @@ class ProfileFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
+
 
     companion object {
         /**

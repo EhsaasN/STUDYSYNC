@@ -48,24 +48,24 @@ class Register : AppCompatActivity() {
                 .addOnCompleteListener() { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
-                        /*
-                       //val documentReference=fauth.collection("user profiles").document(userid)
-                        val user= hashMapOf(
+                        val userid= auth.currentUser!!.uid.toString()
+                       //val documentReference=fstore.collection("user profiles").document(userid)
+                        /*val user= hashMapOf(
                             "fullname" to fullname,
                             "email" to email,
                             "phonenumber" to phonenumber,
                             "password" to password,
                         )
                         //documentReference.set(user)
-                        fstore.collection("user profiles").document("userid").set(user)
-                        documentReference.addOnCompleteListener(){
+                        fstore.collection("user profiles").add(user)*/
+                       /* documentReference.addOnCompleteListener(){
                             Toast.makeText(
                                 this@Register,
                                 "USER REGISTERED",
                                 Toast.LENGTH_SHORT,
                             ).show()
                         }*/
-                        val userid= auth.currentUser!!.uid.toString()
+
                         val user1 = auth.currentUser
                         Toast.makeText(
                             this@Register,

@@ -14,7 +14,9 @@
         android:layout_gravity="center"
         android:src="@drawable/applogo"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        />
 
     <TextView
         android:id="@+id/login"
@@ -31,7 +33,7 @@
         android:textColorLink="@color/black"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:hint="ENTER EMAIL"
         android:textAlignment="center"
@@ -70,12 +72,10 @@
             android:id="@+id/tp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
             android:text="Don't have an account?"
             android:textSize="15dp" />
         <TextView
@@ -83,13 +83,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="245dp"
+            android:layout_marginLeft="235dp"
             android:text="Register here"
-            android:textColor="@android:color/system_accent1_400"
-            tools:ignore="MissingConstraints" />
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@android:color/holo_blue_dark"
+             />
 
     </RelativeLayout>
 
-
+    
 
 </LinearLayout>
