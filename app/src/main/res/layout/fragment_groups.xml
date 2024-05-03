@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="CLICK TO JOIN GROUPS"
+            android:text="JOIN GROUPS"
             android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:textSize="30dp"

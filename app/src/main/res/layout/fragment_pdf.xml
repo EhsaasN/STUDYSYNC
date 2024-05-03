@@ -7,54 +7,25 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUBJECT PDFS"
-        android:textColor="@color/black"
-        android:background="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        />
-
-    <!-- TODO: Update blank fragment layout -->
-
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="5dp">
-
-
-
-        <ImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:src="@drawable/img"/>
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
         <TextView
-            android:id="@+id/M1"
-            android:layout_width="match_parent"
-            android:layout_height= "match_parent"
-            android:text="Mathematics 1"
-            android:background="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SUBJECT PDFS"
+            android:textColor="@color/black"
+
             android:textSize="20sp"
-            android:textAlignment="center"
-            android:padding="30dp"
             android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:layout_gravity="center"
+            />
 
+        <!-- TODO: Update blank fragment layout -->
 
-    </LinearLayout>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -71,138 +42,137 @@
                 android:src="@drawable/img"/>
 
             <TextView
-                android:id="@+id/phy"
+                android:id="@+id/M1"
                 android:layout_width="match_parent"
-                android:layout_height= "match_parent"
-                android:text="PHYSICS"
-                android:background="@color/white"
-                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:padding="30sp"
+
+                android:text="Mathematics 1"
                 android:textAlignment="center"
-                android:padding="30dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
-        <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
-
-
-
-            <ImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:src="@drawable/img"/>
-
-            <TextView
-                android:id="@+id/beeee"
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height= "match_parent"
-                android:text="BEE"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="30dp"
-                android:background="@color/white"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-
-
-        </LinearLayout>
-        <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
 
 
 
-            <ImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
+                <ImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/img"/>
 
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:src="@drawable/img"/>
+                <TextView
+                    android:id="@+id/phy"
+                    android:layout_width="match_parent"
+                    android:layout_height= "match_parent"
+                    android:text="PHYSICS"
 
-            <TextView
-                android:id="@+id/chemistry"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:padding="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height= "match_parent"
-                android:text="CHEMISTRY"
-                android:background="@color/white"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="30dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-
-
-        </LinearLayout>
-        <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
 
 
 
-            <ImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
+                <ImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:src="@drawable/img"/>
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/img"/>
 
-            <TextView
-                android:id="@+id/cs"
-                android:background="@color/white"
+                <TextView
+                    android:id="@+id/beeee"
+                    android:layout_width="match_parent"
+                    android:layout_height= "match_parent"
+                    android:text="BEE"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:padding="30dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height= "match_parent"
-                android:text="Communication skills"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="30dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-
-
-        </LinearLayout>
-        <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
 
 
 
-            <ImageView
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:src="@drawable/img"/>
+                <ImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-            <TextView
-                android:id="@+id/PPS"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/img"/>
+
+                <TextView
+                    android:id="@+id/chemistry"
+                    android:layout_width="match_parent"
+                    android:layout_height= "match_parent"
+                    android:text="CHEMISTRY"
+
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:padding="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+                       <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height= "match_parent"
-                android:text="PPS"
-                android:background="@color/white"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="30dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
 
 
+
+                <ImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/img"/>
+
+                <TextView
+                    android:id="@+id/PPS"
+                    android:layout_width="match_parent"
+                    android:layout_height= "match_parent"
+                    android:text="PPS"
+
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:padding="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
     </ScrollView>
 </FrameLayout>

@@ -42,14 +42,13 @@ class pdfFragment : Fragment() {
         val p=v.findViewById<TextView>(R.id.phy)
         val b=v.findViewById<TextView>(R.id.beeee)
         val ch=v.findViewById<TextView>(R.id.chemistry)
-        val c=v.findViewById<TextView>(R.id.cs)
         val px=v.findViewById<TextView>(R.id.PPS)
         m.setOnClickListener(){
            val intent= Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/M1%20whole%20pdf.pdf?alt=media&token=d17bcf4f-9b39-4681-a919-6a9201e24c37"))
             startActivity(intent)
         }
         p.setOnClickListener(){
-            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/physics.pdf?alt=media&token=7113c492-7f63-466c-a745-1398cc75e8ef"))
+            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/physics.pdf?alt=media&token=7113c492-7f63-466c-a745-1398cc75e8ef "))
             startActivity(intent)
         }
         b.setOnClickListener(){
@@ -58,10 +57,6 @@ class pdfFragment : Fragment() {
         }
         ch.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/chem%20whole%20pdf.pdf?alt=media&token=22bed6b7-b21d-4133-a161-74edea1dc97a"))
-            startActivity(intent)
-        }
-        c.setOnClickListener(){
-            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/email.%20writing.docx?alt=media&token=efd0840c-8f13-4580-bd8e-d93a34502c79"))
             startActivity(intent)
         }
         px.setOnClickListener(){
