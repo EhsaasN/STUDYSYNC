@@ -49,7 +49,7 @@ class pdfFragment : Fragment() {
             startActivity(intent)
         }
         p.setOnClickListener(){
-            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"))
+            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/physics.pdf?alt=media&token=7113c492-7f63-466c-a745-1398cc75e8ef"))
             startActivity(intent)
         }
         b.setOnClickListener(){
@@ -61,11 +61,11 @@ class pdfFragment : Fragment() {
             startActivity(intent)
         }
         c.setOnClickListener(){
-            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"))
+            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/email.%20writing.docx?alt=media&token=efd0840c-8f13-4580-bd8e-d93a34502c79"))
             startActivity(intent)
         }
         px.setOnClickListener(){
-            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"))
+            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/studysync-f2afe.appspot.com/o/pps.pdf?alt=media&token=ead3c679-144b-49ec-88e5-bb011f9117de"))
             startActivity(intent)
         }
         return v

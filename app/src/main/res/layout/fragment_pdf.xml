@@ -17,6 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SUBJECT PDFS"
+        android:textColor="@color/black"
+        android:background="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -44,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height= "match_parent"
             android:text="Mathematics 1"
+            android:background="@color/white"
             android:textSize="20sp"
             android:textAlignment="center"
             android:padding="30dp"
@@ -72,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height= "match_parent"
                 android:text="PHYSICS"
+                android:background="@color/white"
                 android:textSize="20sp"
                 android:textAlignment="center"
                 android:padding="30dp"
@@ -104,6 +108,7 @@
                 android:textSize="20sp"
                 android:textAlignment="center"
                 android:padding="30dp"
+                android:background="@color/white"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
 
@@ -130,6 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height= "match_parent"
                 android:text="CHEMISTRY"
+                android:background="@color/white"
                 android:textSize="20sp"
                 android:textAlignment="center"
                 android:padding="30dp"
@@ -156,6 +162,7 @@
 
             <TextView
                 android:id="@+id/cs"
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height= "match_parent"
                 android:text="Communication skills"
@@ -186,6 +193,7 @@
                 android:layout_width="match_parent"
                 android:layout_height= "match_parent"
                 android:text="PPS"
+                android:background="@color/white"
                 android:textSize="20sp"
                 android:textAlignment="center"
                 android:padding="30dp"
