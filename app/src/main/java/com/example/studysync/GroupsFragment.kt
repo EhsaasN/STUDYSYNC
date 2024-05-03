@@ -1,10 +1,18 @@
 package com.example.studysync
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -23,10 +31,13 @@ class GroupsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+
         }
+
     }
 
     override fun onCreateView(
@@ -34,7 +45,39 @@ class GroupsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_groups, container, false)
+        val v=inflater.inflate(R.layout.fragment_groups, container, false)
+        val m= v.findViewById<Button>(R.id.mathematics)
+        val physics=v.findViewById<Button>(R.id.physics)
+        val bee=v.findViewById<Button>(R.id.bee)
+        val chem=v.findViewById<Button>(R.id.chem)
+        val cs=v.findViewById<Button>(R.id.communicationskills)
+        val pps=v.findViewById<Button>(R.id.pps)
+        val intent= Intent(Intent.ACTION_VIEW,Uri.parse("https://chat.whatsapp.com/GsGSOVaAI4J5xCOdiv0duU"))
+        m?.setOnClickListener {
+            startActivity(intent)
+        }
+        physics.setOnClickListener{
+
+            startActivity(intent)
+        }
+        bee.setOnClickListener{
+
+            startActivity(intent)
+        }
+        chem.setOnClickListener{
+
+            startActivity(intent)
+        }
+        cs.setOnClickListener{
+
+            startActivity(intent)
+        }
+        pps.setOnClickListener{
+
+            startActivity(intent)
+        }
+
+        return v
     }
 
     companion object {

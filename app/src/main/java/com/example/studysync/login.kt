@@ -1,6 +1,7 @@
 package com.example.studysync
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -21,8 +22,12 @@ class Login : AppCompatActivity() {
         val create = findViewById<TextView>(R.id.createprofile)
         val signin = findViewById<Button>(R.id.signin)
         val auth = FirebaseAuth.getInstance()
+        val log=findViewById<TextView>(R.id.login)
         val fstore= Firebase.firestore
-
+        log.setOnClickListener(){
+            intent= Intent(Intent.ACTION_VIEW, Uri.parse("https://chat.whatsapp.com/GsGSOVaAI4J5xCOdiv0duU"))
+            startActivity(intent)
+        }
 
         signin.setOnClickListener() {
             val user = username.text.toString()
